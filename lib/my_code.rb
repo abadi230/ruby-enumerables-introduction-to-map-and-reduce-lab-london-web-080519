@@ -33,6 +33,6 @@ def reduce_to_all_true(array)
 end
 
 def reduce_to_any_true(array)
-  array.reduce(0, true)
+  array.reduce(0) {|element, accumulator| !!accumulator}
   
 end
