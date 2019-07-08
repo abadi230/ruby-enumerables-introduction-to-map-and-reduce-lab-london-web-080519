@@ -22,7 +22,7 @@ end
 
 def reduce_to_all_true(array)
   # geven array : source_array = [1, 2, true, "razmatazz", false]
-  array.reduce(0) {|element, total| !!element}
+  array.reduce(0) {|element, accumulator| !!accumulator}
   # if string == true
   #   true
   #   else
