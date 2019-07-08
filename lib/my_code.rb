@@ -22,7 +22,7 @@ end
 
 def reduce_to_all_true(array)
   array.reduce(0) {|string| 
-  string}
+  string ? true : false}
 end
 
 def reduce_to_any_true(array)
