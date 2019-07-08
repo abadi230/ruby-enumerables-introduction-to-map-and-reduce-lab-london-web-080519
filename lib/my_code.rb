@@ -29,7 +29,7 @@ def reduce_to_all_true(array)
   #     false
   # end
   
-  }
+  
 end
 
 def reduce_to_any_true(array)
